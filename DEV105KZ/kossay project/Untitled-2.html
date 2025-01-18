@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="widht-device-widht">
+        <meta name="description" content="comrehensive page about moroccan rapper MADD, his discographie, career, and biographie">
+        <title> MADD - moroccan rapper</title>
+    </head>
+    <style>
+        body{
+            font-family: arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom,#1e1e2f, #302f4d );
+            color: #ffffff;
+            animation: backgroundFade 8s infinite alternate;
+        }
+        header{
+            background: #1c1b29;
+            text-align: center;
+            padding: 50px 20px;
+        }
+        .header-content h1 {
+            font-size: 3cm;
+            color:#7507f3;
+            animation: slideIn 1.5s ease-out;
+        }
+        .header-content p{
+            font-size: 1.5cm;
+            animation: fadeIn 2s ease-in;
+        }
+        nav{
+            background: #3a394d;
+            text-align: center;
+            padding: 15px 0;
+        }
+        nav ul{
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+
+        }
+        nav ul li a {
+            color: #8de651;
+            text-decoration: none;
+            font-size: 1.2cm;
+            transition: color 0.3s;
+        }
+        nav ul li a:hover{
+            color: #ff6363;
+
+        }
+        .section{
+            padding: 40px 20px;
+            margin: 20px auto ;
+            width: 80%;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            animation: fadeInUp 2s ease-out;}
+        .section h2{ 
+            color: #604966;
+
+         }   
+
+        
+        footer{
+            background: #1c1b29;
+            text-align: center;
+            padding: 20px;
+            font-size: 0.9cm;
+        }
+        @keyframes slideIn{
+            from{ transform: translateX(-100%);}
+            to {transform: translateX(0);}
+        }
+        @keyframes fadeIn {
+            from {opacity: 0;}
+            to {opacity: 1;}
+        }
+        @keyframes fadeInUp{
+            from{transform: translateY(30px); opacity: 0;}
+            to {transform: translateY(0);opacity: 1;}
+        }
+        @keyframes backgroundFade {
+            0%{background: #1e1e2f;}
+            100%{background:#302f4d ;}
+        }
+        video{
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                z-index: -1; }
+    </style>
+    <body>
+        <header>
+            <div class="header-content">
+                <h1>MADD </h1>
+                <p>Exploring the life, music, and legacy of a moroccan HIP HOP icon</p>
+                </div>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="#biography">Biography</a></li>
+                <li><a href="#career">Career</a></li>
+                <li><a href="#discography">Discography</a></li>
+                <li><a href="#latest">Latest</a></li>
+                <li><a href="Untitled-4.html">Contact</a></li>
+            </ul>
+            </nav> 
+            <main>
+                <section id="biography" class="section">
+                    <h2>Biographie</h2>
+                    <p>MADD, born Mehdi rebati on Septamber 1, 1995, in casablanca, morocco, is leading figure in the moroccan rap scene. Growing up in the vibrant cultural envirenment of the old MEDINA, MADD was inspired by glonal rap legends like kendrick lamar while infusing his music with local culturzl elements.</p>
+                </section>
+                <section id="career" class="section">
+                    <h2>Career</h2>
+                    <p>MADD began his journey in 2017 with the breakout single "3310", quicly gaining recognition. In 2020, he released his first studio album, <strong> Black rose</strong>, which featured collaboration with Lacrim, laylow and Xcep. His storytelling, blending Morrocan and international hip-hop, cemented his place as a top artist in the region.</p>
+                </section>
+                <section id="discography" class="section">
+                    <h2>Discography</h2>
+                    <ul>
+                        <li><strong>Black rose</strong> (2020) - A blend of R&B and rap with hits like "stylo" and "karma".</li>
+                        <li><strong>Sensus</strong>(2024) - A highly anticipated album explorin themes of love, identity, and resilience.</li>
+                        <li>Popular singles : "3310", "N" , "L".</li>
+                    </ul>
+                </section>
+                <section id="latest" class="section">
+                    <h2> Latest album :<em>Sensus</em>(2024)</h2>
+                    <p><em>Sensus</em> is MADD's latest masterpiece, showcasing his evolution as an artist. tracks loke " FIKRA" and " ZAMANE" feature introspective lyrics and cutting-edge production, reflecting his artistic growth.</p>
+                </section>
+            </main>
+            <footer>
+                <p> Kossay saber and zakariae ait bellah, designed for fans and music enthusiasts</p>
+                <video autoplay muted
+                loop id="myvideo">
+                <source src="V.mp4">
+            </footer>
+        </header>
+    </body>
+</html>
